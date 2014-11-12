@@ -1,12 +1,23 @@
 # Site settings
 title: Jean-Christophe Bohin
-email:
+email: jc [at] bohin [dot] net
 description: "Entrepreneur, Technologeek, Webologist, IT Architect, Photo Enthusiast. I like innovation, chalenge, solving problems, Python and Golang. My goal is to reach simple, elegant and performant architectures."
 baseurl: ""
-url: "http://jcbohin.github.io"
+url: "http://jc.bohin.net"
 twitter_username: bohinjc
 github_username:  jcbohin
+
+timezone: Europe/Paris
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Jean-Christophe Bohin"
