@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-Hi, my name is Jean-Christophe Bohin, I live in Paris, France. I am an entrepreneur, mostly working as a solution/software architect, but I also implement a lot of things by myself (proof-of-concepts, prototypes, mocks and production code, either in Python or Go mostly), to keep track of reality.
+My name is Jean-Christophe Bohin, I live in Paris, France. I am an entrepreneur, mostly working as a solution/software architect, but I also implement a lot of things by myself (proof-of-concepts, prototypes, mocks and production code, either in Python or Go mostly), to keep track of reality.
 
 Most of my actual projects are on Telemedicine, where I focus on convergence (M2M, medical and well-being sensors, quantifiable self, ...), soft real-time and data streaming (like realtime ECG graphs over the network...), security and anonymity (medical data is a very sensible information), modern web technologies (WebSockets, Local Storage, WebRTC...), micro-services, reactive programming, decoupling, multi-tenants applications, and scalable services.
 
