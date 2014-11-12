@@ -10,4 +10,4 @@ Most of my actual projects are focussed on Telemedicine, where I focus on conver
 
 I'm mostly a backend guy nowadays, half because I found some thrilling challenges backend-side, half because I'm not fond of some quasi-mandatory frontend technologies and specifics (like CSS, cross browser non-predictable behavior/rendering, ...). But that doesn't means that I'm not interested in frontend, especially good ideas for a brighter future like pjax, react, react+om, pouchdb, ...
 
-I'm not that into social networks, but you can find some updates on [twitter](https://twitter.com/bohinjc) and my not so up-to-date [linkedin profile](linkedin.com/in/bohinjc/).
+I'm not that into social networks, but you can find some updates on [twitter](https://twitter.com/bohinjc) and my not so up-to-date [linkedin profile](http://linkedin.com/in/bohinjc/).
