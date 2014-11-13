@@ -1,6 +1,6 @@
 ---
-permalink: embrace_speed_with_pjax
-title: Embrace speed with pjax
+permalink: embrace_speed__and_reactivity_with_pjax
+title: Embrace speed and reactivity with pjax
 tags: [backend, frontend, performance, javascript]
 layout: post
 ---
