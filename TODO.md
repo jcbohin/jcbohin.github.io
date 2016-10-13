@@ -1,2 +1,0 @@
-[] Tags
-[] Related posts
