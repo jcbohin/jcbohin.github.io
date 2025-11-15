@@ -14,11 +14,17 @@
 	<meta property="og:title" content="Jean-Christophe Bohin - Entrepreneur, Advisor & Investisseur">
 	<meta property="og:description" content="Entrepreneur, advisor et investisseur dans l'écosystème tech européen. Co-fondateur de Matters, product studio accompagnant startups et scale-ups à fort impact.">
 	<meta property="og:locale" content="fr_FR">
+	<meta property="og:locale:alternate" content="en_US">
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="Jean-Christophe Bohin - Entrepreneur, Advisor & Investisseur">
 	<meta name="twitter:description" content="Entrepreneur, advisor et investisseur dans l'écosystème tech européen. Co-fondateur de Matters, product studio accompagnant startups et scale-ups à fort impact.">
+
+	<!-- Alternate language versions -->
+	<link rel="alternate" hreflang="fr" href="https://jcbohin.com/">
+	<link rel="alternate" hreflang="en" href="https://jcbohin.com/en/">
+	<link rel="alternate" hreflang="x-default" href="https://jcbohin.com/">
 
 	<title>Jean-Christophe Bohin - Entrepreneur, Advisor & Investisseur</title>
 
@@ -100,6 +106,30 @@
 			outline-offset: 2px;
 		}
 
+		.lang-switcher {
+			text-align: right;
+			margin-bottom: 2em;
+			font-size: 0.9em;
+		}
+
+		.lang-switcher a {
+			margin-left: 0.5em;
+			padding: 0.3em 0.6em;
+			border: 1px solid #2255AA;
+			border-radius: 3px;
+		}
+
+		.lang-switcher a.active {
+			background: #2255AA;
+			color: #F5F5F5;
+			font-weight: bold;
+		}
+
+		.lang-switcher a[href^="http"]::after,
+		.lang-switcher a[href^="/"]::after {
+			content: "";
+		}
+
 		@media print {
 			body {
 				max-width: none;
@@ -109,6 +139,10 @@
 
 			a[href^="http"]::after {
 				content: " (" attr(href) ")";
+			}
+
+			.lang-switcher {
+				display: none;
 			}
 		}
 
@@ -133,11 +167,25 @@
 			a:focus {
 				outline-color: #6699FF;
 			}
+
+			.lang-switcher a {
+				border-color: #6699FF;
+			}
+
+			.lang-switcher a.active {
+				background: #6699FF;
+				color: #1A1A1A;
+			}
 		}
 	</style>
 </head>
 
 <body>
+	<nav class="lang-switcher" role="navigation" aria-label="Language switcher">
+		<a href="/" lang="fr" class="active" aria-current="page">FR</a>
+		<a href="/en/" lang="en">EN</a>
+	</nav>
+
 	<article>
 		<header>
 			<h1>Jean-Christophe Bohin</h1>
