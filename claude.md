@@ -14,8 +14,6 @@ jcbohin.github.io/
 ├── CNAME              # Configuration du domaine personnalisé (jc.bohin.net)
 ├── README.md          # Documentation du repository
 ├── .gitignore         # Fichiers ignorés par Git
-├── .well-known/       # Fichiers de vérification
-│   └── keybase.txt    # Vérification d'identité Keybase
 └── claude.md          # Ce fichier - contexte pour Claude AI
 ```
 
@@ -84,9 +82,6 @@ Le site est automatiquement déployé via GitHub Pages lorsque des modifications
 
 ### CNAME
 Configure le domaine personnalisé pour GitHub Pages. Ne pas supprimer.
-
-### .well-known/keybase.txt
-Fichier de vérification d'identité Keybase. Ne pas modifier sauf pour mettre à jour la preuve Keybase.
 
 ## Contact
 
