@@ -4,7 +4,54 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Jean-Christophe Bohin</title>
+	<meta name="description" content="Entrepreneur, advisor et investisseur dans l'écosystème tech européen. Co-fondateur de Matters, product studio accompagnant startups et scale-ups à fort impact.">
+	<meta name="author" content="Jean-Christophe Bohin">
+	<meta name="theme-color" content="#4466AA">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://jcbohin.com/">
+	<meta property="og:title" content="Jean-Christophe Bohin - Entrepreneur, Advisor & Investisseur">
+	<meta property="og:description" content="Entrepreneur, advisor et investisseur dans l'écosystème tech européen. Co-fondateur de Matters, product studio accompagnant startups et scale-ups à fort impact.">
+	<meta property="og:locale" content="fr_FR">
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Jean-Christophe Bohin - Entrepreneur, Advisor & Investisseur">
+	<meta name="twitter:description" content="Entrepreneur, advisor et investisseur dans l'écosystème tech européen. Co-fondateur de Matters, product studio accompagnant startups et scale-ups à fort impact.">
+
+	<title>Jean-Christophe Bohin - Entrepreneur, Advisor & Investisseur</title>
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+	<link rel="alternate icon" href="/favicon.ico">
+
+	<!-- Manifest for PWA -->
+	<link rel="manifest" href="/manifest.json">
+
+	<!-- Preconnect for performance -->
+	<link rel="preconnect" href="https://www.linkedin.com" crossorigin>
+
+	<!-- Structured Data -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Person",
+		"name": "Jean-Christophe Bohin",
+		"url": "https://jcbohin.com",
+		"jobTitle": "Entrepreneur, Advisor & Investisseur",
+		"description": "Entrepreneur, advisor et investisseur dans l'écosystème tech européen",
+		"sameAs": [
+			"https://www.linkedin.com/in/jcbohin/"
+		],
+		"knowsAbout": ["Entrepreneuriat", "Startups", "Product Management", "Venture Capital", "Technology"],
+		"alumniOf": {
+			"@type": "Organization",
+			"name": "Matters"
+		}
+	}
+	</script>
+
 	<style>
 		body {
 			margin: 1em auto;
@@ -19,11 +66,29 @@
 		h2,
 		h3 {
 			line-height: 1.2em;
+			color: #222;
 		}
 
 		a {
-			color: #0056B3;
+			color: #2255AA;
 			text-decoration: none;
+			border-bottom: 1px solid transparent;
+			transition: border-color 0.2s ease;
+		}
+
+		a:hover {
+			border-bottom-color: #2255AA;
+		}
+
+		a:focus {
+			outline: 2px solid #2255AA;
+			outline-offset: 2px;
+		}
+
+		a[href^="http"]::after {
+			content: " ↗";
+			font-size: 0.8em;
+			opacity: 0.7;
 		}
 
 		a:hover {
@@ -41,6 +106,33 @@
 				color: #000;
 				background: #FFF;
 			}
+
+			a[href^="http"]::after {
+				content: " (" attr(href) ")";
+			}
+		}
+
+		@media (prefers-color-scheme: dark) {
+			body {
+				color: #E0E0E0;
+				background: #1A1A1A;
+			}
+
+			h1, h2, h3 {
+				color: #F0F0F0;
+			}
+
+			a {
+				color: #6699FF;
+			}
+
+			a:hover {
+				border-bottom-color: #6699FF;
+			}
+
+			a:focus {
+				outline-color: #6699FF;
+			}
 		}
 	</style>
 </head>
@@ -52,16 +144,16 @@
 		</header>
 		<section>
 			<p>Je suis <strong>entrepreneur</strong>, <strong>advisor</strong> et <strong>investisseur</strong> dans l'écosystème tech européen. Ma mission : aider les entrepreneurs à transformer leurs idées en entreprises prospères, dans leur différentes phases et cycles de croissance.</p>
-			
+
 			<p>Mon parcours combine plus de <strong>10 ans de stratégie d'entreprise</strong> et <strong>plus de 15 ans d'accompagnement de ventures tech</strong>. J'ai co-fondé trois startups et conseillé de nombreuses entreprises innovantes en tant que board advisor et operating partner.</p>
-			
+
 			<p>Aujourd'hui, je dirige <strong>Matters</strong>, un product studio que j'ai co-fondé. Nous accompagnons les startups et scale-ups à fort impact dans la création de solutions durables. Notre approche allie expertise produit, design et technologie.</p>
-			
+
 			<p>Notre équipe pluridisciplinaire travaille main dans la main avec les entrepreneurs. Nous privilégions une approche pragmatique et sur-mesure, centrée sur les besoins réels des utilisateurs.</p>
 
 			<p>Je suis également <strong>Limited Partner</strong> dans plusieurs fonds de venture capital, participant activement au financement de l'innovation.</p>
-			
-			<p>Vous avez un projet innovant ? Contactez-moi sur <a href='https://linkedin.com/in/jcbohin/'>linkedin</a>.</p>
+
+			<p>Vous avez un projet innovant ? Contactez-moi sur <a href="https://www.linkedin.com/in/jcbohin/" rel="noopener noreferrer" target="_blank">LinkedIn</a>.</p>
 		</section>
 	</article>
 </body>
