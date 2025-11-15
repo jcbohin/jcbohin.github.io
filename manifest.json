@@ -1,0 +1,20 @@
+{
+	"name": "Jean-Christophe Bohin - Entrepreneur, Advisor & Investisseur",
+	"short_name": "JC Bohin",
+	"description": "Entrepreneur, advisor et investisseur dans l'écosystème tech européen",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#EEEEEE",
+	"theme_color": "#4466AA",
+	"orientation": "portrait-primary",
+	"icons": [
+		{
+			"src": "/favicon.svg",
+			"sizes": "any",
+			"type": "image/svg+xml",
+			"purpose": "any maskable"
+		}
+	],
+	"lang": "fr",
+	"dir": "ltr"
+}
