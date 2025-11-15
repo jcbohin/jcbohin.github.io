@@ -13,6 +13,7 @@
 	<meta property="og:url" content="https://jcbohin.com/en/">
 	<meta property="og:title" content="Jean-Christophe Bohin - Entrepreneur, Advisor & Investor">
 	<meta property="og:description" content="Entrepreneur, advisor, and investor in the European tech ecosystem. Co-founder of Matters, a product studio supporting high-impact startups and scale-ups.">
+	<meta property="og:image" content="https://jcbohin.com/img/jc.png">
 	<meta property="og:locale" content="en_US">
 	<meta property="og:locale:alternate" content="fr_FR">
 
@@ -20,6 +21,7 @@
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="Jean-Christophe Bohin - Entrepreneur, Advisor & Investor">
 	<meta name="twitter:description" content="Entrepreneur, advisor, and investor in the European tech ecosystem. Co-founder of Matters, a product studio supporting high-impact startups and scale-ups.">
+	<meta name="twitter:image" content="https://jcbohin.com/img/jc.png">
 
 	<!-- Alternate language versions -->
 	<link rel="alternate" hreflang="fr" href="https://jcbohin.com/">
@@ -45,6 +47,7 @@
 		"@type": "Person",
 		"name": "Jean-Christophe Bohin",
 		"url": "https://jcbohin.com",
+		"image": "https://jcbohin.com/img/jc.png",
 		"jobTitle": "Entrepreneur, Advisor & Investor",
 		"description": "Entrepreneur, advisor, and investor in the European tech ecosystem",
 		"sameAs": [
@@ -130,6 +133,35 @@
 			content: "";
 		}
 
+		.header-content {
+			display: flex;
+			align-items: center;
+			gap: 2em;
+			margin-bottom: 1.5em;
+		}
+
+		.profile-photo {
+			width: 130px;
+			height: 130px;
+			border-radius: 50%;
+			border: 3px solid #2255AA;
+			box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+			object-fit: cover;
+			flex-shrink: 0;
+		}
+
+		.header-content h1 {
+			margin: 0;
+		}
+
+		@media (max-width: 600px) {
+			.header-content {
+				flex-direction: column;
+				text-align: center;
+				gap: 1em;
+			}
+		}
+
 		@media print {
 			body {
 				max-width: none;
@@ -176,6 +208,11 @@
 				background: #6699FF;
 				color: #1A1A1A;
 			}
+
+			.profile-photo {
+				border-color: #6699FF;
+				box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+			}
 		}
 	</style>
 </head>
@@ -188,7 +225,10 @@
 
 	<article>
 		<header>
-			<h1>Jean-Christophe Bohin</h1>
+			<div class="header-content">
+				<img src="/img/jc.png" alt="Jean-Christophe Bohin" class="profile-photo" width="130" height="130">
+				<h1>Jean-Christophe Bohin</h1>
+			</div>
 		</header>
 		<section>
 			<h2>Building game-changing products and services</h2>
